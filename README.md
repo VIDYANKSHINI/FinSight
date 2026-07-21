@@ -34,12 +34,6 @@ https://fin-sight-gules-one.vercel.app
 Video Demo:
 (Link to be added)
 
-Screenshots:
-
-<p align="center">
-  <img src="public/dashboard-screenshot.png" width="800">
-</p>
-
 ---
 
 ## Tech Stack
@@ -56,11 +50,28 @@ Screenshots:
 ### AI / ML
 - Python
 - Scikit-learn
+- XGBoost
 - FastAPI
 
 ### Cloud
 - Vercel
 - GitHub
+
+---
+
+## System Architecture
+
+The architecture seamlessly integrates a Next.js frontend with a fast Python/FastAPI ML backend to provide real-time financial intelligence.
+
+1. **Client Layer:** Users (micro-enterprises and field officers) interact with the responsive Next.js frontend.
+2. **Authentication Layer:** NextAuth.js handles secure Google OAuth login.
+3. **Application Backend:** Next.js API routes aggregate financial records, UPI trends, and market intelligence data.
+4. **AI/ML Engine (FastAPI):**
+   - **Data Preprocessing:** Cleans and normalizes alternative data (UPI proxies, climate/market data).
+   - **Cash Flow Prediction Model:** Time-series forecasting (e.g., ARIMA or XGBoost) predicts the 30/60/90-day cash flow.
+   - **Explainable AI (XAI):** SHAP (SHapley Additive exPlanations) extracts feature importance to provide human-readable reasons for predictions.
+   - **Risk Scoring:** An anomaly detection/classification model flags early warning signs and computes the Financial Health Score.
+5. **Recommendation Engine:** A rule-based or LLM-driven inference engine cross-references the risk score against intervention strategies to generate actionable insights.
 
 ---
 
@@ -133,23 +144,11 @@ NextAuth (Google Login)
 Dashboard (Data Aggregation)
    │
    ▼
-AI Risk & Prediction Engine
+AI Risk & Prediction Engine (FastAPI)
    │
    ▼
 Actionable Insights Displayed
 ```
-
----
-
-## Screenshots
-
-Home
-
-<img src="public/hero-landscape.png" width="600">
-
-Dashboard
-
-<img src="public/dashboard-screenshot.png" width="600">
 
 ---
 
