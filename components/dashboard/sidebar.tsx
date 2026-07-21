@@ -83,7 +83,8 @@ export function DashboardSidebar() {
     <>
       {/* Mobile top bar */}
       <div className="md:hidden fixed top-0 inset-x-0 z-40 flex items-center justify-between border-b border-white/10 bg-black/20 backdrop-blur-xl px-4 h-14">
-        <Link href="/" className="text-base font-semibold font-mono">
+        <Link href="/" className="text-base font-semibold font-mono" className="flex items-center gap-2">
+          <img src="/Logo.png" alt="FinSightAI Logo" className="w-6 h-6 object-contain" />
           FinSightAI
         </Link>
         <button onClick={() => setMobileOpen(true)} aria-label="Open menu">

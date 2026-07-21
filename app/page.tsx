@@ -162,7 +162,8 @@ export default function TerraPage() {
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="text-lg md:text-xl font-semibold font-mono hover:text-pink-400 transition-colors duration-300"
-            >
+             className="flex items-center gap-2">
+              <img src="/Logo.png" alt="FinSightAI Logo" className="w-6 h-6 object-contain" />
               FinSightAI
             </button>
 
