@@ -63,6 +63,36 @@ Video Demo:
 
 The architecture seamlessly integrates a Next.js frontend with a fast Python/FastAPI ML backend to provide real-time financial intelligence.
 
+```mermaid
+graph TD
+    subgraph Client Layer
+        A[Micro-Enterprise / Field Officer] -->|UI Interaction| B[Next.js Frontend]
+    end
+
+    subgraph Authentication
+        B -->|OAuth| C[NextAuth.js Google Login]
+    end
+
+    subgraph Backend Services
+        B -->|API Calls| D[Next.js API Routes]
+        D -->|Data Aggregation| E[(Database / Data Sources)]
+    end
+
+    subgraph AI/ML Engine FastAPI
+        D -->|Financial & Proxy Data| F[FastAPI Backend]
+        F -->|Preprocess| G[Data Normalization]
+        G --> H{XGBoost / ARIMA Model}
+        H -->|Predict| I[30/60/90-Day Cash Flow]
+        H -->|Explain| J[SHAP Explanations XAI]
+        H -->|Evaluate| K[Risk Scoring & Anomaly Detection]
+        K --> L[Recommendation Engine]
+    end
+    
+    I --> D
+    J --> D
+    L --> D
+```
+
 1. **Client Layer:** Users (micro-enterprises and field officers) interact with the responsive Next.js frontend.
 2. **Authentication Layer:** NextAuth.js handles secure Google OAuth login.
 3. **Application Backend:** Next.js API routes aggregate financial records, UPI trends, and market intelligence data.
