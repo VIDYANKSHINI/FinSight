@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-export function VideoBackground({ src = "/background.mp4" }: { src?: string }) {
+export function VideoBackground({ src = "/background2.mp4" }: { src?: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
