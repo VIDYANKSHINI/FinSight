@@ -223,7 +223,10 @@ git push origin feature/new-feature
 
 ---
 
-## Authors
+## Team Members
+
+- **Vidyankshini Vibhute & Kalpesh More** - Frontend Development, Backend Architecture, and Authentication APIs
+- **Shravani Tanksale & Satyam Kulkarni** - Machine Learning Engineering, Predictive Modeling, and AI Integration
 
 **VIDYANKSHINI**
 
