@@ -223,15 +223,16 @@ git push origin feature/new-feature
 
 ---
 
-## Team Members
+## 👥 Hackathon Team
 
-- **Vidyankshini Vibhute & Kalpesh More** - Frontend Development, Backend Architecture, and Authentication APIs
-- **Shravani Tanksale & Satyam Kulkarni** - Machine Learning Engineering, Predictive Modeling, and AI Integration
+This project was built for the **Nabard Hackathon**, organized by **HackCulture**.
 
-**VIDYANKSHINI**
-
-GitHub:
-https://github.com/VIDYANKSHINI
+| Name | Role | Key Skills |
+|------|------|------------|
+| **Vidyankshini Vibhute** | Frontend Developer | React, Next.js, Premium UI/UX Design |
+| **Kalpesh More** | Backend Developer | Python, FastAPI, REST API Design, PostgreSQL/MongoDB |
+| **Shravani Tanksale** | AI Developer | NLP, LLM Integration, Prompt Engineering, Model Deployment |
+| **Satyam Kulkarni** | AI & ML Developer | Machine Learning, Deep Learning, Scikit-learn, Data Analysis |
 
 ---
 
