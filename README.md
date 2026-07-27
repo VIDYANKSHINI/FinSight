@@ -21,7 +21,6 @@ Smart Cash AI revolutionizes personal and business finance management by leverag
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
 - [Project Structure](#project-structure)
 - [Available Scripts](#available-scripts)
 - [Roadmap](#roadmap)
@@ -135,8 +134,8 @@ Follow these instructions to get a local copy up and running.
 ### Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/username/smart-cash-ai-2.git
-   cd smart-cash-ai-2
+   git clone https://github.com/VIDYANKSHINI/FinSight.git
+   cd FinSight
    ```
 
 2. **Install dependencies**
@@ -146,24 +145,6 @@ Follow these instructions to get a local copy up and running.
    pnpm install
    ```
 
-### Environment Variables
-
-> [!WARNING]
-> Never commit your `.env.local` file to version control. It contains sensitive API keys and secrets that must be kept private.
-
-Create a `.env.local` file in the root directory. You can use the provided `.env.example` as a template.
-
-```env
-# Authentication
-NEXTAUTH_URL="http://localhost:3000"
-NEXTAUTH_SECRET="generate_a_strong_random_secret_here"
-
-# Database Connection
-DATABASE_URL="postgresql://user:password@localhost:5432/smartcash?schema=public"
-
-# AI Service Keys (If applicable)
-OPENAI_API_KEY="sk-..."
-```
 
 ---
 
