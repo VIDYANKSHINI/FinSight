@@ -13,19 +13,19 @@ Smart Cash AI revolutionizes personal and business finance management by leverag
 ---
 
 ## 📑 Table of Contents
-- [About the Project](#about-the-project)
-- [Core Features](#core-features)
-- [Application Flow](#application-flow)
-- [Tech Stack Deep Dive](#tech-stack-deep-dive)
-- [System Architecture](#system-architecture)
-- [Getting Started](#getting-started)
+- [About the Project](#-about-the-project)
+- [Core Features](#-core-features)
+- [Application Flow](#-application-flow)
+- [Tech Stack Deep Dive](#-tech-stack-deep-dive)
+- [System Architecture](#-system-architecture)
+- [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Available Scripts](#available-scripts)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Structure](#-project-structure)
+- [Available Scripts](#-available-scripts)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
